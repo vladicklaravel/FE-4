@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, лабораторна робота, веб-сторінка">
+    <meta name="description" content="Лабораторна робота з HTML5, створення базової веб-сторінки">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Криворот Владислав Віталійович, група ІП-23, лабораторна 4, Варіант 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Криворот Владислав Віталійович</h2>
+    <br>
+    <p>Місце народження: Місто Київ, Україна.</p>
+    <p>Дата народження: 03.09.2004</p>
+    <p>Освіта: Закінчив школу №315 в Києві, після чого вступив до Київського Політехнічого Інституту.</p>
+
+    <h3>Моє хобі</h3>
+    <ul>
+        <li>Спорт</li>
+        <li>Програмування</li>
+        <li id="tenthElement">Активне проведення часу</li>
+    </ul>
+
+    <h3 id="nextElement">Улюблені фільми</h3>
+    <ol>
+        <li>Інтерстеллар</li>
+        <li>Шпигуни-Союзники</li>
+        <li>Тенет</li>
+    </ol>
+
+    <h3>Опис улюбленого міста</h3>
+    <p>Моє улюблене місто - це Київ. Це одне з найбільших міст в Україні з багатою історією та красивими архітектурними пам'ятками.</p>
+    <div id="imageContainer">
+        <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B8%D1%97%D0%B2" target="_blank">
+            <img id="image" src="https://kashtan.media/wp-content/uploads/2022/07/%D0%A0%D1%83%D1%81%D0%B0%D0%BD%D1%96%D0%B2%D0%BA%D0%B0-%D0%90%D0%BA%D1%82%D0%B8%D0%B2%D0%B8%D1%81%D1%82%D0%B8-1024x682.jpg" alt="Київ" width="900">
+        </a>
+    </div>
+<div class="button-container">
+    <button onclick="addImage()">Додати зображення</button>
+    <button onclick="increaseImage()">Збільшити зображення</button>
+    <button onclick="decreaseImage()">Зменшити зображення</button>
+    <button onclick="removeImage()">Видалити зображення</button>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
